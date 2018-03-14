@@ -1,0 +1,6 @@
+framework module NSBundle_category {
+  umbrella header "NSBundle_category-umbrella.h"
+
+  export *
+  module * { export * }
+}

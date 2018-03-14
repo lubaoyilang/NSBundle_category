@@ -1,0 +1,22 @@
+{
+  "name": "NSBundle_category",
+  "version": "0.1.0",
+  "summary": "A short description of NSBundle_category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MoonMD/NSBundle_category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MoonMD": "15157191245@163.com"
+  },
+  "source": {
+    "git": "https://github.com/MoonMD/NSBundle_category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSBundle_category/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_NSBundle_category_Tests {
+  umbrella header "Pods-NSBundle_category_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

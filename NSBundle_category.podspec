@@ -30,8 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NSBundle_category/Classes/**/*'
-  
+  # s.source_files = 'NSBundle_category/Classes/**/*'
+
+  s.subspec "ResourceBundle" do |ss|
+     ss.source_files = 'NSBundle_category/Classes/ResourceBundle/*'
+  end
   # s.resource_bundles = {
   #   'NSBundle_category' => ['NSBundle_category/Assets/*.png']
   # }
