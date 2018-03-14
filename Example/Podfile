@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSBundle_category_Example' do
+  pod 'NSBundle_category', :path => '../'
+
+  target 'NSBundle_category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
